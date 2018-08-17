@@ -1,0 +1,141 @@
+:root {
+      
+    --backgroundColor:            #2e3436;
+    --backgroundTransparentColor: #2e3436;
+    --sheetBackgroundColor:       #2e3436;
+  
+    --foregroundColor:            #babdb6;
+    --thinRuleColor:              #babdb6;
+
+    --headingsColor:              #babdb6;
+    --headingsUnderlineColor:     #babdb640;
+    --linkColor:                  #729fcf;
+    --linkUnderlineColor:         #729fcf40;
+    --linkColorVisited:           #babdb6;
+    --linkUnderlineColorVisited:  #babdb640;
+    --hoverColor:                 #babdb6;
+    --hoverUnderlineColor:        #babdb640;
+    --adminColor:                 #77a88f;
+    --adminUnderlineColor:        #7eb09640;
+    --engineTextColor:            #565567;
+    --engineTextUnderlineColor:   #56556740;
+  
+    --markedTextBackground:       #515b66;
+    --markedImageBorderColor:       var(--markedTextBackground);
+  
+    --inputBackgroundColor:       white;
+    --inputTextColor:             black;
+  
+    --imageBorderColor:           #333;
+    --disabledColor:                var(--markedTextBackground);
+    --errorColor:                 #b03000;
+    --currentItemBackgroundColor: #333;
+    --windowBackgroundColor:        var(--markedTextBackground);
+    /* --unsavedIndicatorColor */
+  
+    /* to match .likely */
+    /* --subscribeButtonBackground: rgba(231,231,231,.8); */
+    /* --subscribeButtonHoverBackground: rgba(212,212,212,.8); */
+    /* --subscribeButtonTextColor: #000; */
+  
+    /* to match .likely-light */
+    --subscribeButtonBackground:        #ececec29;
+    --subscribeButtonHoverBackground:   #ffffff7a;
+    --subscribeButtonTextColor:         #fff;
+  
+    /* --marginTop */
+    /* --marginLeft */
+    /* --marginRight */
+    /* --marginTopCompact */
+    /* --marginLeftCompact */
+    /* --marginRightCompact */
+  
+    /* --displayLogoMarginal */
+    /* --displayLogo */
+    /* --displayLogoCompact */
+  
+    /* --columnSpacing */
+  
+    /* --logoTop */
+    /* --blogTitleFontSize */
+    /* --blogTitleLineHeight */
+    /* --pageHeadingFontSize */
+    /* --pageHeadingLineHeight */
+    /* --noteTitleFontSize */
+    /* --noteTitleLineHeight */
+    /* --noteTitleFavouriteFontSize */
+    /* --noteTitleFavouriteLineHeight */
+    /* --noteTextFontSize */
+    /* --noteTextLineHeight */
+  
+    /* --mainFontFamily */
+    /* --noteMainFontFamily */
+    /* --smallFontFamily */
+  
+    /* --time */
+  
+  }
+  
+.e2-text .lead {
+    color: var(--headingsColor);
+}
+
+.e2-text .loud {
+    color: var(--headingsColor);
+}
+
+.e2-text ul li {
+    list-style-type: square;
+}
+
+a.e2-tag {
+    color: #fcaf3e!important;
+}
+
+.e2-submit-button {
+    background: #204a87;
+    color: #eeeeec!important;
+    border: 1px solid #babdb6!important;
+    text-decoration: none!important;
+    font-weight: bold;
+    padding: 8px;
+}
+
+thead {
+    background-color: #555753!important;
+}
+
+td {
+    border: 1px solid #555753!important;
+}
+
+th, thead:hover {
+    color: #babdb6!important;
+    font-weight: normal!important;
+    border: 1px solid #555753!important;
+}
+
+tr:hover {
+    background-color: #5c3566!important;
+}
+
+pre {
+    color: #f8f8f2;
+    background-color: #101111;
+    border-radius: 3px;
+    border: 1px dashed #777;
+}
+
+kbd {
+    color: #f8f8f2;
+    background-color: #555753;
+}
+
+blockquote {
+    background-color: #2e3436!important;
+    border-left: 5px solid #555753!important;
+}
+
+blockquote p {
+    font-style: italic!important;
+}
